@@ -43,9 +43,9 @@ a { /*color y formato de links generales*/
     align-items: center;
 }
 
-.row {
+/* .row {
     margin-bottom: 25px;
-}
+} */
 
 .btn-card {
     background-color: rgb(75, 205, 223);
@@ -55,6 +55,16 @@ a { /*color y formato de links generales*/
 
 /*estilos de display de cartas individuales a continuación*/
 
+/* Dsiplay de cartas de página Eevee */
+
+.eevee-img {
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Display de cartas Leafeon-Glaceon-Sylveon-Espeon-Umbreon */
 .grid-cartas {
     /* display: grid;
     grid-template-columns: repeat(2, 1fr);
