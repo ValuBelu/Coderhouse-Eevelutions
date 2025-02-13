@@ -28,10 +28,17 @@ h3 {
     margin-top: 1rem;
 }
 
-#carrusel {
-    text-align: center;
+.carousel-item img {
+    margin: auto;
 }
 
+.carousel-control-prev {
+    justify-content: flex-end;
+}
+
+.carousel-control-next {
+    justify-content: flex-start;
+}
 /*Estilos de tarjetas de cada evolución-Página principal*/
 
 .card {
