@@ -53,15 +53,15 @@ h3 {
 
 /*estilos de display de cartas individuales a continuación*/
 
-/* Dsiplay de cartas de página Eevee */
+/* Dsiplay de cartas de página Eevee (con bootstrap)*/
 @media (max-width: 767px){
-    .grid-eevee{
+    .grid-bootstrap{
         display: flex;
         flex-flow: column nowrap;
         margin: 5%;
     }
 
-    .eevee-card {
+    .bootstrap-card {
         justify-content: center;
         align-items: center;
         align-content: center;
@@ -69,12 +69,12 @@ h3 {
         margin-top: 1rem;
     }
 
-    .eevee-img {
+    .bootstrap-img {
         width: 55%;
     }
 }
 
-/* Display de cartas Leafeon-Glaceon-Sylveon-Espeon-Umbreon */
+/* Display de cartas Leafeon-Glaceon-Sylveon-Espeon-Umbreon (sin bootstrap)*/
 .grid-cartas {
     display: flex;
     flex-flow: column nowrap;
@@ -112,22 +112,8 @@ h3 {
     height: 500px;
 }
 
-/*Estilos de página de contacto*/
-#form-contacto {
-    /* display: flex;
-    flex-flow: column nowrap; */
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 10%;
-    background-color: aliceblue;
-}
 
-.mensaje {
-    text-align: center;
-    padding: 2rem;
-}
-
+/* Footer de todas las páginas */
 footer {
     margin-top: 3rem;
     text-align: center;
@@ -138,7 +124,7 @@ footer {
 /*Media query para tablets*/
 @media (min-width: 768px){
 
-    .grid-eevee{
+    .grid-bootstrap{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6,1fr);
@@ -173,7 +159,7 @@ footer {
 
     /*estilos de display de cartas individuales a continuación*/
 
-    .grid-eevee{
+    .grid-bootstrap{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4,1fr);
