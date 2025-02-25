@@ -3,7 +3,18 @@
 
 .index_main{
     .introduccion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            margin-top: 1rem;
+        }
+        .main-carrusel{
+            width: 50%;
+        }
         .main-carousel{
+            width: 50%;
             .carousel-control-prev {
                 justify-content: flex-end;
             }
@@ -15,6 +26,7 @@
 
     .contenedor-cartas-main{
         .card {
+            width: 90%;
             align-items: center;
             .card-footer{
             .btn-card {

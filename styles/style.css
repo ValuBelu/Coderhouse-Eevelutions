@@ -5,10 +5,6 @@ body {
 body header h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
-body h2 {
-  margin-top: 1rem;
-  text-align: center;
-}
 body footer {
   margin-top: 3rem;
   text-align: center;
@@ -16,6 +12,21 @@ body footer {
   font-size: smaller;
 }
 
+.index_main .introduccion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.index_main .introduccion h2 {
+  margin-top: 1rem;
+}
+.index_main .introduccion .main-carrusel {
+  width: 50%;
+}
+.index_main .introduccion .main-carousel {
+  width: 50%;
+}
 .index_main .introduccion .main-carousel .carousel-control-prev {
   justify-content: flex-end;
 }
@@ -23,6 +34,7 @@ body footer {
   justify-content: flex-start;
 }
 .index_main .contenedor-cartas-main .card {
+  width: 90%;
   align-items: center;
 }
 .index_main .contenedor-cartas-main .card .card-footer .btn-card {
@@ -60,6 +72,9 @@ body footer {
 }
 
 @media (max-width: 767px) {
+  .index_main .introduccion #carouselExampleFade {
+    width: 100%;
+  }
   .grid-bootstrap {
     display: flex;
     flex-flow: column nowrap;
