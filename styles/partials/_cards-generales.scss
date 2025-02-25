@@ -1,0 +1,27 @@
+.grid-cartas {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 5%;
+    .cartas{
+        border: 2px solid black;
+        background-color: cadetblue;
+        padding: 15px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2%;
+        .img-cartas {
+            height: 256px;
+            width: 185px;
+            margin-bottom: 5px ;
+        }
+        ul{
+            padding: 0%;
+            text-align: start;
+            li {
+                list-style: none;
+            }
+        }
+    }
+}

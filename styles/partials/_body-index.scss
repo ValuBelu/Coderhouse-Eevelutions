@@ -1,0 +1,30 @@
+//estilos de lo elementos del header
+//carrusel
+
+.index_main{
+    .introduccion{
+        .main-carousel{
+            .carousel-control-prev {
+                justify-content: flex-end;
+            }
+            .carousel-control-next {
+                justify-content: flex-start;
+            }
+        }
+    }
+
+    .contenedor-cartas-main{
+        .card {
+            align-items: center;
+            .card-footer{
+            .btn-card {
+                    background-color: rgb(75, 205, 223);
+                    color: black;
+                    font-weight: 500;
+                } 
+            }
+            
+        } 
+    }
+    
+}

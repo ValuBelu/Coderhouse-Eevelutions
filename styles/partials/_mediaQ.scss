@@ -1,0 +1,113 @@
+//display de cartas de eevee en mobile
+@media (max-width: 767px){
+    // .index_main{
+    //     .main-carrusel{
+    //             .carousel-inner{
+    //             justify-content: center;
+    //             align-items: center;
+    //             align-content: center;
+    //             .carousel-item{
+    //                 img{
+    //                     width: 25%;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+    .grid-bootstrap{
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 5%;
+        .bootstrap-card {
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            margin-top: 1rem;
+            .bootstrap-img {
+            width: 55%;
+            }
+        }
+        
+    }
+}
+/*Media query para tablets*/
+@media (min-width: 768px){
+
+    .grid-bootstrap{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6,1fr);
+        gap: 1%;
+        margin: 20px;
+    }
+
+    .grid-cartas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6,1fr);
+        gap: 1%;
+        margin: 20px;
+        justify-items: stretch;
+        .cartas {
+            justify-items: center;
+            h3{
+                text-align: center;
+            }
+            ul{
+                margin: auto;
+            }
+        }
+
+    }
+}
+
+/*Media query para computadoras*/
+@media (min-width: 1024px){
+
+    /*estilos de display de cartas individuales a continuación*/
+
+    .grid-bootstrap{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4,1fr);
+        gap: 1%;
+        margin: 20px;
+        .lista{
+            font-size: medium;
+            list-style:circle;
+        }
+    }
+
+    .grid-cartas {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 10px;
+        margin: 20px;
+        justify-items: stretch;
+        .cartas{
+            border: 2px solid black;
+            background-color: $card_color;
+            padding: 25px;
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            justify-content: center;
+            img {
+                height: 256px;
+                width: 185px;
+                margin-bottom: 5px ;
+            }
+            ul{
+                margin-top: 5px;
+            }
+        }
+        
+    }
+
+    // .img-cartas {
+    //     width: 350px;
+    //     height: 500px;
+    // }
+}
