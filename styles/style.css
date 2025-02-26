@@ -2,7 +2,10 @@
 body {
   background-color: lightgoldenrodyellow;
 }
-body header h1 {
+body header nav {
+  background-color: #a9e2cb;
+}
+body header nav h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
 body footer {
@@ -21,9 +24,6 @@ body footer {
 .index_main .introduccion h2 {
   margin-top: 1rem;
 }
-.index_main .introduccion .main-carrusel {
-  width: 50%;
-}
 .index_main .introduccion .main-carousel {
   width: 50%;
 }
@@ -37,15 +37,19 @@ body footer {
   width: 90%;
   align-items: center;
 }
-.index_main .contenedor-cartas-main .card .card-footer .btn-card {
+.index_main .contenedor-cartas-main .card .card-footer .btn-card, .index_main .contenedor-cartas-main .card .card-footer .btn-card-eevee {
   background-color: rgb(75, 205, 223);
   color: black;
   font-weight: 500;
 }
+.index_main .contenedor-cartas-main .card .card-footer .btn-card-eevee {
+  background-color: rgb(177, 121, 37);
+}
 
 .grid-cartas {
   display: flex;
-  flex-flow: column nowrap;
+  flex-direction: column;
+  flex-wrap: nowrap;
   margin: 5%;
 }
 .grid-cartas .cartas {
@@ -53,7 +57,8 @@ body footer {
   background-color: cadetblue;
   padding: 15px;
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin-bottom: 2%;
@@ -71,13 +76,21 @@ body footer {
   list-style: none;
 }
 
+.grid-bootstrap .bootstrap-card {
+  background-color: cadetblue;
+}
+
+.fav-cards .bootstrap-card {
+  background-color: cadetblue;
+}
+
 @media (max-width: 767px) {
   .index_main .introduccion #carouselExampleFade {
     width: 100%;
   }
   .grid-bootstrap {
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column;
     margin: 5%;
   }
   .grid-bootstrap .bootstrap-card {
@@ -145,9 +158,10 @@ body footer {
     background-color: cadetblue;
     padding: 25px;
     display: flex;
-    flex-flow: column wrap;
-    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
   .grid-cartas .cartas img {
     height: 256px;

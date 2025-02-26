@@ -1,2 +1,13 @@
 $body_color: lightgoldenrodyellow;
+$nav_color: #a9e2cb;
 $card_color: cadetblue;
+
+@mixin container-flex($direction){
+    display: flex;
+    flex-direction: $direction;
+}
+
+@mixin centrar(){
+    justify-content: center;
+    align-items: center;
+}

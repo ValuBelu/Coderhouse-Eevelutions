@@ -1,15 +1,14 @@
 .grid-cartas {
-    display: flex;
-    flex-flow: column nowrap;
+    @include container-flex(column);
+    flex-wrap: nowrap;
     margin: 5%;
     .cartas{
         border: 2px solid black;
-        background-color: cadetblue;
+        background-color: $card_color;
         padding: 15px;
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        align-items: center;
+        @include container-flex(column);
+        flex-wrap: wrap;
+        @include centrar();
         margin-bottom: 2%;
         .img-cartas {
             height: 256px;
@@ -23,5 +22,17 @@
                 list-style: none;
             }
         }
+    }
+}
+
+.grid-bootstrap{
+    .bootstrap-card{
+        background-color: $card_color;
+    }
+}
+
+.fav-cards{
+    .bootstrap-card{
+        background-color: $card_color;
     }
 }

@@ -3,15 +3,10 @@
 
 .index_main{
     .introduccion{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include container-flex(column);
+        @include centrar();
         h2{
             margin-top: 1rem;
-        }
-        .main-carrusel{
-            width: 50%;
         }
         .main-carousel{
             width: 50%;
@@ -29,10 +24,14 @@
             width: 90%;
             align-items: center;
             .card-footer{
-            .btn-card {
+                .btn-card {
                     background-color: rgb(75, 205, 223);
                     color: black;
                     font-weight: 500;
+                }
+                .btn-card-eevee{
+                    @extend .btn-card;
+                    background-color:rgb(177, 121, 37);
                 } 
             }
             
