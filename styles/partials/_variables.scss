@@ -11,3 +11,9 @@ $card_color: cadetblue;
     justify-content: center;
     align-items: center;
 }
+
+@mixin grilla($col,$fil){
+    display:grid;
+    grid-template-columns: repeat($col,1fr);
+    grid-template-rows: repeat($fil,1fr);
+}

@@ -5,11 +5,11 @@
     .cartas{
         border: 2px solid black;
         background-color: $card_color;
-        padding: 15px;
         @include container-flex(column);
         flex-wrap: wrap;
         @include centrar();
         margin-bottom: 2%;
+        padding: 15px;
         .img-cartas {
             height: 256px;
             width: 185px;
