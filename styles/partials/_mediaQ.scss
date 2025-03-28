@@ -21,6 +21,14 @@
         }
         
     }
+    .fav-cards{
+        .bootstrap-card{
+            @include centrar();
+            .bootstrap-img{
+                width: 55%;
+            }
+        }
+    }
 }
 /*Media query para tablets*/
 @media (min-width: 768px){

@@ -128,6 +128,13 @@ body footer {
   .grid-bootstrap .bootstrap-card .bootstrap-img {
     width: 55%;
   }
+  .fav-cards .bootstrap-card {
+    justify-content: center;
+    align-items: center;
+  }
+  .fav-cards .bootstrap-card .bootstrap-img {
+    width: 55%;
+  }
 }
 /*Media query para tablets*/
 @media (min-width: 768px) {
