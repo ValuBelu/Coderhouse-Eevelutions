@@ -40,13 +40,35 @@ body footer {
   width: 90%;
   align-items: center;
 }
-.index_main .contenedor-cartas-main .card .card-footer .btn-card, .index_main .contenedor-cartas-main .card .card-footer .btn-card-eevee {
-  background-color: rgb(75, 205, 223);
+.index_main .contenedor-cartas-main .card .card-footer .btn-card-eevee, .index_main .contenedor-cartas-main .card .card-footer .btn-card-umbreon, .index_main .contenedor-cartas-main .card .card-footer .btn-card-espeon, .index_main .contenedor-cartas-main .card .card-footer .btn-card-sylveon, .index_main .contenedor-cartas-main .card .card-footer .btn-card-glaceon, .index_main .contenedor-cartas-main .card .card-footer .btn-card-leafeon, .index_main .contenedor-cartas-main .card .card-footer .btn-card-flareon, .index_main .contenedor-cartas-main .card .card-footer .btn-card-jolteon, .index_main .contenedor-cartas-main .card .card-footer .btn-card-vaporeon {
+  background-color: rgb(177, 121, 37);
   color: black;
   font-weight: 500;
 }
-.index_main .contenedor-cartas-main .card .card-footer .btn-card-eevee {
-  background-color: rgb(177, 121, 37);
+.index_main .contenedor-cartas-main .card .card-footer .btn-card-vaporeon {
+  background-color: rgb(65, 184, 214);
+}
+.index_main .contenedor-cartas-main .card .card-footer .btn-card-jolteon {
+  background-color: rgb(244, 255, 83);
+}
+.index_main .contenedor-cartas-main .card .card-footer .btn-card-flareon {
+  background-color: rgb(238, 99, 56);
+}
+.index_main .contenedor-cartas-main .card .card-footer .btn-card-leafeon {
+  background-color: rgb(65, 202, 99);
+}
+.index_main .contenedor-cartas-main .card .card-footer .btn-card-glaceon {
+  background-color: rgb(113, 218, 183);
+}
+.index_main .contenedor-cartas-main .card .card-footer .btn-card-sylveon {
+  background-color: rgb(214, 65, 139);
+}
+.index_main .contenedor-cartas-main .card .card-footer .btn-card-espeon {
+  background-color: rgb(204, 112, 216);
+}
+.index_main .contenedor-cartas-main .card .card-footer .btn-card-umbreon {
+  color: rgb(235, 235, 235);
+  background-color: rgb(3, 28, 32);
 }
 
 .grid-cartas {

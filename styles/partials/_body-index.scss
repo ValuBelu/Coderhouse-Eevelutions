@@ -24,15 +24,44 @@
             width: 90%;
             align-items: center;
             .card-footer{
-                .btn-card {
-                    background-color: rgb(75, 205, 223);
+                .btn-card-eevee {
+                    background-color:rgb(177, 121, 37);
                     color: black;
                     font-weight: 500;
                 }
-                .btn-card-eevee{
-                    @extend .btn-card;
-                    background-color:rgb(177, 121, 37);
+                .btn-card-vaporeon{
+                    @extend .btn-card-eevee;
+                    background-color:rgb(65, 184, 214);
                 } 
+                .btn-card-jolteon{
+                    @extend .btn-card-eevee;
+                    background-color:rgb(244, 255, 83);
+                }
+                .btn-card-flareon{
+                    @extend .btn-card-eevee;
+                    background-color:rgb(238, 99, 56);
+                }
+                .btn-card-leafeon{
+                    @extend .btn-card-eevee;
+                    background-color:rgb(65, 202, 99);
+                }
+                .btn-card-glaceon{
+                    @extend .btn-card-eevee;
+                    background-color:rgb(113, 218, 183);
+                }
+                .btn-card-sylveon{
+                    @extend .btn-card-eevee;
+                    background-color:rgb(214, 65, 139);
+                }
+                .btn-card-espeon{
+                    @extend .btn-card-eevee;
+                    background-color:rgb(204, 112, 216);
+                }
+                .btn-card-umbreon{
+                    @extend .btn-card-eevee;
+                    color: rgb(235, 235, 235);
+                    background-color:rgb(3, 28, 32);
+                }
             }
             
         } 
